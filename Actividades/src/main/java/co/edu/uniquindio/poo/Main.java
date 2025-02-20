@@ -4,14 +4,24 @@ package co.edu.uniquindio.poo;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Nino nino = new Nino("Alison" , 31111, "alergia respiratoria", "Maria", 12, ('f') ;
+        Nino nino2 = new Nino("Camila", 35874, "al polen", "Rosa" , 30, 31111, ('f ');
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println(nino.toString());
+        System.out.println(estudiante2.toString());
     }
 }
+
+/*
+package co.edu.uniquindio.poo;
+
+public class Main {
+    public static void main(String[] args) {
+        Estudiante estudiante = new Estudiante("Raul Yulbraynner", "Rivera Galvez", "ryrviera@uniquindio.edu.co", 30, 31111, 12345);
+        Estudiante estudiante2 = new Estudiante("Camila", "Rivera Galvez", "ryrviera@uniquindio.edu.co", 30, 31111, 12345);
+
+        System.out.println(estudiante.toString());
+        System.out.println(estudiante2.toString());
+    }
+}
+*/
