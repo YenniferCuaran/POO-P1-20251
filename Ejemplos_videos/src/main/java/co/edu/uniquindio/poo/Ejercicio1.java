@@ -9,7 +9,7 @@ package co.edu.uniquindio.poo;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio1 {
     public static void main(String[] args) {
 
         int numero;

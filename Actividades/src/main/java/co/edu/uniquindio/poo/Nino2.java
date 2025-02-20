@@ -8,7 +8,7 @@ public class Nino2 {
 
     public Nino(string nombreCompleto, )
 
-
+    String [] nombres=
 
 
 
