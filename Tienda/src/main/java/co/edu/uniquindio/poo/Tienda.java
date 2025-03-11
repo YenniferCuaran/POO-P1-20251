@@ -12,6 +12,12 @@ public class Tienda {
     private List<Cliente> listClientes;
     private List<Venta> listVentas;
 
+    /**
+     * Metodo constructor de la clase Tienda
+     * @param nombre
+     * @param nit
+     */
+
     public Tienda(String nombre, Long nit){
 
         this.nombre = nombre;
@@ -23,7 +29,10 @@ public class Tienda {
 
     }
 
-
+    /**
+     * Metodo que registra los productos
+     * @param producto
+     */
     public void registrarProducto(Producto producto) {
         listProductos.add(producto);
     }
@@ -37,9 +46,7 @@ public class Tienda {
 
 
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getNombre() {return nombre; }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -62,10 +69,7 @@ public class Tienda {
     }
 
 
-
-    public List<Cliente> getListClientes() {
-        return listClientes;
-    }
+    public List<Cliente> getListClientes() { return listClientes;}
 
     public void setListClientes(List<Cliente> listClientes) {
         this.listClientes = listClientes;
