@@ -3,7 +3,7 @@
 ' '
  !
  */
-//ERROR PUEDE Q NOMBRE D EL ARCHIVO//
+
 
 package co.edu.uniquindio.poo;
 
