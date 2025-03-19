@@ -1,3 +1,5 @@
+
+
 /* Imprimir los primeros 10 números naturales
 Escribe un programa que use un bucle for para imprimir los números del 1 al 10.
 

@@ -1,30 +1,32 @@
-
 /* Sumar los primeros N números naturales
 Escribe un programa que pida un número N al usuario y calcule
  la suma de los primeros N números naturales usando un bucle while.
       */
 package co.edu.uniquindio.poo;
-
-
 import java.util.Scanner;
 
 public class Ejercicio2 {
 
-        public void suma(){
-                Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
 
-                System.out.println("Ingrese un numero");
-                int numero = scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
 
-                while (i<=numero){
+        System.out.print("Ingrese un numero entero: ");
+        int numero = scanner.nextInt();
+        scanner.close();
 
-                        suma=suma+numero //=suma ++
-                                        //suma iterativa
-                }
-        public static void main(String[] args) {
+        int suma=0;
+        int i=1;
 
-
+        while (i<=numero){
+           suma+=i; // suma el valor de i a la variable suma.//
+           //  Es equivalente a suma = suma + i;.//
+            i++; //equivalente a i = i + 1;.//
         }
+        System.out.print("La suma de los primeros "+ numero + " numeros naturales es: " +suma);
+
+
+    }
 
 }
 
