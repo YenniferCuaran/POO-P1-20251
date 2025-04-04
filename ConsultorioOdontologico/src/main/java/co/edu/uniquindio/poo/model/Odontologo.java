@@ -69,5 +69,10 @@ public class Odontologo {
         this.cita = cita;
     }
 
-    //metodo
+    public void agregarPaciente(Paciente paciente) {
+        listPaciente.add(paciente);
+
+    }
+
+
 }

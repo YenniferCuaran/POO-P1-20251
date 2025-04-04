@@ -38,7 +38,12 @@ public class ConsultorioOdontologico {
         this.listOdontologos = listOdontologos;
     }
 
-    //metodos
-    //public void
+    public void agregarOdontologo(Odontologo odontologo) {
+        listOdontologos.add(odontologo);
+
+
+
+
+
 
 }
