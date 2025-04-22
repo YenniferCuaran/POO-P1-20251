@@ -1,4 +1,5 @@
 package co.edu.uniquindio.poo.empresajfx.model;
+
 public class Cliente {
     private String cedula, nombre, apellido;
 

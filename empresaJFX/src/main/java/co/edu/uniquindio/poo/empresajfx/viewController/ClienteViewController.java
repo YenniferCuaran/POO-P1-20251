@@ -83,7 +83,7 @@ public class ClienteViewController {
 
     @FXML
     void initialize() {
-        this.app= app;
+        this.app=app;
         clienteController = new ClienteController(app.empresa);
         initView();
     }
@@ -183,3 +183,4 @@ public class ClienteViewController {
         this.app = app;
     }
 }
+

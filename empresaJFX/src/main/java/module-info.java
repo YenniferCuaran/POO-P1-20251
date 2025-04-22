@@ -1,6 +1,4 @@
 module co.edu.uniquindio.poo.empresajfx {
-
-
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -8,4 +6,6 @@ module co.edu.uniquindio.poo.empresajfx {
     exports co.edu.uniquindio.poo.empresajfx;
     exports co.edu.uniquindio.poo.empresajfx.viewController;
     opens co.edu.uniquindio.poo.empresajfx.viewController to javafx.fxml;
+
 }
+
