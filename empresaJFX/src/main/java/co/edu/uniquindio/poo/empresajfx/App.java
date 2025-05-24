@@ -71,4 +71,3 @@ public class App extends Application {
         empresa.agregarCliente(cliente);
     }
 }
-
