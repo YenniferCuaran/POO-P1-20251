@@ -9,7 +9,7 @@ class LavadoraTest {
 
     //test correcto
     @Test
-    public void calcularPrecioVenta() {
+    public void testcCalcularPrecioVenta() {
         Electrodomestico lavadora1=new Lavadora("543", "gris", 85, 200000, false);
             assertEquals(230000, lavadora1.calcularPrecioVenta());
     }
