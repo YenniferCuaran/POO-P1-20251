@@ -2,7 +2,7 @@ package co.edu.uniquindio.poo.proyectofinal.model;
 /**
  * Representa un libro
  */
-public abstract class Libro {
+public class Libro {
     private String titulo;
     private String autor;
     private String genero;
@@ -24,11 +24,7 @@ public abstract class Libro {
         this.anioPublicacion = anioPublicacion;
         this.estado = estado;
     }
-//revisar metodo
-    /**
-     * Metodo abstracto que permite obtener el tipo del libro
-     */
-    public abstract String getTipo();
+
     /**
      * Metodos getters y setters de los atributos de la clase Libro
      */

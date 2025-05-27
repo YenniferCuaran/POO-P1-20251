@@ -22,7 +22,6 @@ public class Bibliotecario extends Empleado {
         this.listLibros = new ArrayList<>();
         this.listPrestamos = new ArrayList<>();
     }
-
     /**
      * Registra un nuevo libro.
      *
@@ -31,7 +30,6 @@ public class Bibliotecario extends Empleado {
     public void registrarLibro(Libro libro) {
         this.listLibros.add(libro);
     }
-
     /**
      * Registra un nuevo usuario.
      * @param usuario Usuario a registrar.
@@ -47,7 +45,7 @@ public class Bibliotecario extends Empleado {
                 return usuario;
             }
         }
-        return null; // No encontrado
+        return null; // No se encontro
     }
     // metodo que permite buscar un libro por su titulo
     private Libro buscarLibroPorTitulo(String titulo) {
@@ -56,7 +54,7 @@ public class Bibliotecario extends Empleado {
                 return libro;
             }
         }
-        return null; // No encontrado
+        return null; // No se encontro
     }
 
     /**

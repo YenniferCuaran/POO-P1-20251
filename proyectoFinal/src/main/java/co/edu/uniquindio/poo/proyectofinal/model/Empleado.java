@@ -13,7 +13,6 @@ public class Empleado {
         this.credencial = credencial;
         this.nombre = nombre;
     }
-
     /**
      * Metodos getters y setters
      */

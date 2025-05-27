@@ -34,17 +34,18 @@ public class Estudiante extends Usuario implements ISolicitudes {
 
 
     public boolean solicitarPrestamo(Libro libro) {
-        // Verificar cantidad máxima permitida
+        // Verifica cantidad máxima permitida
         if (cantMaxLibros > 3) {
             System.out.println("No puedes solicitar más de 3 libros.");
             return false;
         }
 
-        // Verificar si el libro está disponible
+        // Verifica si el libro está disponible
         if (libro.getEstado() != Estado.DISPONIBLE) {
             System.out.println("El libro no está disponible.");
             return false;
         }
+        return true;
     }
 }
     

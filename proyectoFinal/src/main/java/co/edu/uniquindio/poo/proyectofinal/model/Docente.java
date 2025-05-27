@@ -6,24 +6,24 @@ import java.util.List;
  * Representa un usuario tipo Docente
  */
 public class Docente extends Usuario {
-    private int cantcantMaxLibros;
+    private int cantMaxLibros;
     private String facultad;
     /**
      * Metodo constructor de la clase Docente
      * @param credencial
      * @param nombre
      * @param correo
-     * @param cantcantMaxLibros
+     * @param cantMaxLibros
      * @param facultad
      */
-    public Docente(String credencial, String nombre, String correo, int prestamosActivos, List<Prestamo> prestamos, int cantcantMaxLibros, String facultad) {
+    public Docente(String credencial, String nombre, String correo, int prestamosActivos, List<Prestamo> prestamos, int cantMaxLibros, String facultad) {
         super(credencial, nombre, correo,prestamosActivos, prestamos);
-        this.cantcantMaxLibros = 5;
+        this.cantMaxLibros = 5;
         this.facultad = facultad;
     }
 
-    public int getCantcantMaxLibros() {
-        return cantcantMaxLibros;
+    public int getCantMaxLibros() {
+        return cantMaxLibros;
     }
 
     public boolean solicitarPrestamo(Libro libro) {
@@ -38,5 +38,6 @@ public class Docente extends Usuario {
             System.out.println("El libro no está disponible.");
             return false;
         }
+        return true;
     }
 }

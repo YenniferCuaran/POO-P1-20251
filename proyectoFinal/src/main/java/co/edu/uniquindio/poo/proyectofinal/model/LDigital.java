@@ -19,12 +19,5 @@ public class LDigital extends Libro {
         this.enlaceDescarga = enlaceDescarga;
         this. formato=formato;
     }
-
-    @Override
-    public String getTipo() {
-        return "Digital";
-    }
-
-    //se cree q tambien tiene los metodos prestar y devolver de la clase LFisico
 }
 

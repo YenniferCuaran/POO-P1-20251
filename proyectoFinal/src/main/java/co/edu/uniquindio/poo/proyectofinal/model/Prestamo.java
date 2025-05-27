@@ -23,7 +23,7 @@ public class Prestamo {
         this.fechaFin = fechaFin;
         this.usuario = usuario;
         this.ListLibrosPrestados = new ArrayList<Prestamo>();
-        this.libro = null;
+        this.libro = libro;
 
     }
 

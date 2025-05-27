@@ -20,13 +20,6 @@ public class LReferencia extends Libro {
         this.ubicacion = ubicacion;
     }
 
-    @Override
-    public String getTipo() {
-        return "Referencia";
-    }
-
-
-//corregir
     public void consultar() {
         throw new UnsupportedOperationException("Los libros de referencia no se pueden prestar.");
     }

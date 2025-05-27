@@ -6,8 +6,4 @@ public interface ISolicitudes {
 
     public boolean solicitarPrestamo(Libro libro);
 
-
-
-
-
 }

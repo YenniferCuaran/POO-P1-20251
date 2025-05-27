@@ -1,5 +1,10 @@
 package co.edu.uniquindio.poo.proyectofinal;
 
+import co.edu.uniquindio.poo.proyectofinal.model.Bibliotecario;
+import co.edu.uniquindio.poo.proyectofinal.model.Estado;
+import co.edu.uniquindio.poo.proyectofinal.model.LReferencia;
+import co.edu.uniquindio.poo.proyectofinal.model.Libro;
+import co.edu.uniquindio.poo.proyectofinal.viewController.LibroViewController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -7,7 +12,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-import co.edu.uniquindio.poo.proyectofinal.viewController.ClienteViewController;
 import co.edu.uniquindio.poo.proyectofinal.viewController.PrimaryController;
 
 /**
@@ -16,7 +20,7 @@ import co.edu.uniquindio.poo.proyectofinal.viewController.PrimaryController;
 public class App extends Application {
 
     private Stage primaryStage;
-    public static Empresa empresa = new Empresa("UQ");
+    public static Bibliotecario bibliotecario = new Bibliotecario("168UQ", "Jose");
 
     @Override
     public void start(Stage primaryStage) throws IOException {
@@ -52,7 +56,7 @@ public class App extends Application {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(App.class.getResource("crudCliente.fxml"));
             AnchorPane rootLayout = (AnchorPane) loader.load();
-            ClienteViewController clienteViewController = loader.getController();
+            LibroViewController clienteViewController = loader.getController();
             clienteViewController.setApp(this);
 
             Scene scene = new Scene(rootLayout);
@@ -66,8 +70,8 @@ public class App extends Application {
 
     //servicios
     public void inicializarData(){
-        Cliente cliente = new Cliente("12233", "juan", "apellido");
-        empresa.agregarCliente(cliente);
+        Libro libro= new LReferencia("El principito",  "Antoine", "novela corta", 1943, Estado.DISPONIBLE, "Bloque B");
+        bibliotecario.registrarLibro(libro);
     }
 }
 

@@ -24,25 +24,6 @@ public class LFisico extends Libro {
         this.editorial = editorial;
         this.ubicacion = ubicacion;
     }
-    /**
-     * Metodo que permite obtener el nombre de un animal
-     * @return nombre del animal
-     */
-    @Override
-    public String getTipo() {
-        return "Físico";
-    }
 
-
-
-//corregir
-   /* public void prestar() {
-        this.disponible = false;
-    }
-
-    public void devolver() {
-        this.disponible = true;
-    }
-    */
 
 }

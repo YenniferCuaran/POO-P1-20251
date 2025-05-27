@@ -42,7 +42,6 @@ public class Biblioteca {
     /**
      * Metodo que elimina un empleado
      */
-
     public void eliminarEmpleado(Empleado empleado){
         this.listEmpleados.remove(empleado);
     }
