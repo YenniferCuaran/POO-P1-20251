@@ -4,8 +4,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import co.edu.uniquindio.poo.proyectofinal.App;
-import co.edu.uniquindio.poo.proyectofinal.controller.ClienteController;
-import co.edu.uniquindio.poo.proyectofinal.model.Cliente;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

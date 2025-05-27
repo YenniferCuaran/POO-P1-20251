@@ -6,8 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import java.io.IOException;
-import co.edu.uniquindio.poo.proyectofinal.model.Cliente;
-import co.edu.uniquindio.poo.proyectofinal.model.Empresa;
+
 import co.edu.uniquindio.poo.proyectofinal.viewController.ClienteViewController;
 import co.edu.uniquindio.poo.proyectofinal.viewController.PrimaryController;
 
